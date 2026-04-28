@@ -128,8 +128,7 @@ button[type="submit"] {
 
 .social-login {
     display: flex;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 15px; /* مسافة بين الزرارين */
 }
 
 .social-btn {
@@ -140,12 +139,22 @@ button[type="submit"] {
     background: white;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: #1303f9;
+    
+    /* تظبيط اللينك */
+    text-decoration: none; /* شيل الخط الأزرق */
+    color: #333; /* لون الكلام الأساسي */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .social-btn:hover {
-    background: #046fcd ;
-    color: white;
+    background: #046fcd;
+    color: white; /* الكلام هيتحول أبيض مع الخلفية الزرقاء */
+    border-color: #046fcd;
+    box-shadow: 0 4px 10px rgba(19, 3, 249, 0.2); /* ضل خفيف */
 }
 
 .bottom-text {
