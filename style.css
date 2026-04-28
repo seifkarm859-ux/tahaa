@@ -89,21 +89,7 @@ input {
 input:focus {
     border-color: #f0c24f;
 }
-button a {
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        /* عشان تشيل الخط اللي تحت اللينك */
-        color: #333;
-        /* نفس لون الخط في الصورة */
-        transition: 0.3s;
-   
-    font-weight: bold;
-   
-    
-}
-}
+
 
 
 button[type="submit"] {
@@ -128,7 +114,8 @@ button[type="submit"] {
 
 .social-login {
     display: flex;
-    gap: 15px; /* مسافة بين الزرارين */
+    gap: 15px;
+    /* مسافة بين الزرارين */
 }
 
 .social-btn {
@@ -139,10 +126,12 @@ button[type="submit"] {
     background: white;
     cursor: pointer;
     transition: 0.3s;
-    
+
     /* تظبيط اللينك */
-    text-decoration: none; /* شيل الخط الأزرق */
-    color: #333; /* لون الكلام الأساسي */
+    text-decoration: none;
+    /* شيل الخط الأزرق */
+    color: #333;
+    /* لون الكلام الأساسي */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,9 +141,11 @@ button[type="submit"] {
 
 .social-btn:hover {
     background: #046fcd;
-    color: white; /* الكلام هيتحول أبيض مع الخلفية الزرقاء */
+    color: white;
+    /* الكلام هيتحول أبيض مع الخلفية الزرقاء */
     border-color: #046fcd;
-    box-shadow: 0 4px 10px rgba(19, 3, 249, 0.2); /* ضل خفيف */
+    box-shadow: 0 4px 10px rgba(19, 3, 249, 0.2);
+    /* ضل خفيف */
 }
 
 .bottom-text {
